@@ -1,0 +1,487 @@
+
+/* START Hickman Plugin CSS */
+
+button, input, optgroup, select, textarea {
+    line-height: inherit;
+}
+
+.reset-step {
+    line-height: 1.15em;
+}
+
+/*.supply-message {*/
+/*color: #EA088B;*/
+/*font-size: 15px;*/
+/*}*/
+
+/*!* Makes Filter By Price button the same height as the Add to Cart buttons *!*/
+/*.price_slider_amount .button {*/
+/*line-height: 1.618;*/
+/*}*/
+
+/*!* Makes Blank Labels Product Category Page Full Width *!*/
+/*body.term-2288 #primary {*/
+/*float: none;*/
+/*width: 100%;*/
+/*}*/
+
+#hlc-roll-label-step-form {
+    /*font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-family: "WooCommerce", "DM Sans", Arial, "Lucida Grande", sans-serif;
+    font-weight:normal !important;
+}
+
+#hlc-roll-label-step-form *:not([class^="icon-"]) {
+    font-family: inherit;
+}
+
+#hlc-roll-label-step-form .sub-step h3, #hlc-roll-label-step-form .sub-step h4 {
+    font-size: 1.25em;
+}
+
+#hlc-roll-label-step-form .description p span {
+    font-family: inherit !important;
+    font-size: 1em !important;
+}
+
+#hlc-roll-label-step-form a:hover {
+    text-decoration: none !important;
+}
+
+#hlc-roll-label-step-form .steps h3 {
+    margin-top: 0.5em;
+    text-align: center !important;
+}
+
+#hlc-roll-label-step-form.left-steps-wide .steps, #hlc-roll-label-step-form.left-steps .steps, #hlc-roll-label-step-form .step.printer .printer-setup .printer-search .printer-form, #hlc-roll-label-step-form .step.printer .printer-setup .custom-printer .printer-form {
+    border-radius: 3px;
+    background-color: #f0f0f0 !important;
+    padding: 0.25em 1em !important;
+}
+
+h3 {
+    font-weight:normal !important;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.shape button .shape-title {
+    font-weight:normal !important;
+}
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-grid .rp-size {
+    font-weight:normal !important;
+}
+.mb-form .label .form-label {
+    font-weight:normal !important;
+}
+
+#hlc-roll-label-step-form .step.printer .printer-setup .printer-step-grid .col {
+    padding: 0em !important;
+}
+
+.step.material .sub-step.material .hlc-label-material .hlc-material-name {
+    font-size:inherit;
+}
+#hlc-roll-label-step-form .steps .menu-window ol li .step-name, #hlc-roll-label-step-form .btn {
+    font-weight:normal !important;
+    text-transform: capitalize !important;
+}
+
+#hlc-roll-label-step-form .step.printer .printer-setup .printer-step-grid .col .pgrid-title {
+    font-weight:normal !important;
+}
+
+#hlc-roll-label-step-form .status-bar .previous button {
+    float:left;
+}
+#hlc-roll-label-step-form .status-bar .next button {
+    float:right;
+    background-color: #00b019;
+}
+
+
+#hlc-roll-label-step-form .btn, #hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .close-diagram, #hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .next-diagram {
+    letter-spacing: normal !important;
+    font-size: 1em !important;
+    /*background-color: #29aae1;*/
+}
+
+
+#hlc-roll-label-step-form .btn:hover, #hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .close-diagram:hover, #hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .next-diagram:hover {
+    background-color: #000000;
+}
+
+#hlc-roll-label-step-form .icon-cart2:before {
+    content: "\ea19" !important;
+}
+
+#hlc-roll-label-step-form .select2-container .select2-choice abbr {
+    top: 7px;
+}
+
+#hlc-roll-label-step-form .steps .menu-window .step-highlight {
+    background: #29aae1;
+    border-radius: 3px;
+}
+
+#hlc-roll-label-step-form .steps .menu-window ol li {
+    border-bottom: 0;
+}
+
+#hlc-roll-label-step-form .steps .menu-window ol li .reset-step {
+    padding: 0 1px;
+}
+
+#hlc-roll-label-step-form .reset-step {
+    color: #6d6d6d !important;
+}
+
+#hlc-roll-label-step-form .reset-step:hover {
+    color: #29aae1 !important;
+}
+
+#hlc-roll-label-step-form .current .reset-step {
+    color: #ffffff !important;
+}
+
+#hlc-roll-label-step-form .current .reset-step:hover {
+    color: #6d6d6d !important;
+}
+
+/* WATCH THIS */
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label .reset-input {
+    right: 2px;
+    top: 15%;
+    padding: 0 1px;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label .reset-input i {
+    color: #6d6d6d;
+    background: none;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label .reset-input i:hover {
+    color: #29aae1;
+}
+
+#hlc-roll-label-step-form .step.printer .printer-setup .printer-step-grid .col:hover {
+    border-radius: 3px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.mb-form .label.required .form-label:before, .mb-form .label.mb-required .form-label:before, #hlc-roll-label-step-form .mb-form .label span.error {
+    color: #EA088B;
+}
+
+#hlc-roll-label-step-form .mb-form .form-label, #hlc-roll-label-step-form .mb-form input {
+    color: #333333 !important;
+    border-radius: 3px;
+}
+
+#hlc-roll-label-step-form .mb-form input {
+    background: #ffffff;
+}
+
+#hlc-roll-label-step-form .status {
+    display: none;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.shape button.active .shape-img {
+    background: #29aae1;
+    border-color: #29aae1;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size h3 {
+    padding-left: 0;
+}
+
+/*WATCH THIS*/
+#hlc-roll-label-step-form.left-steps-wide .status-bar, #hlc-roll-label-step-form.left-steps .status-bar {
+    margin-left: 0;
+    padding: 0;
+}
+
+#hlc-roll-label-step-form.left-steps-wide .step.shape .sub-step.size .size-diagram .label-customizations, #hlc-roll-label-step-form.left-steps .step.shape .sub-step.size .size-diagram .label-customizations {
+    background: #f0f0f0;
+    padding: .35em .75em .625em;
+    border-radius: 3px;
+}
+
+/* WATCH THIS */
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .next-diagram {
+    float: right;
+}
+
+/* WATCH THIS */
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label {
+    width: 11em;
+    margin: .5em .5em 0 0;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label .form-label {
+    padding: .25em;
+}
+
+/*REALLY WATCH THIS*/
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .close-diagram, #hlc-roll-label-step-form .step.shape .sub-step.size .size-diagram .next-diagram {
+    position: relative;
+}
+
+/* WATCH THIS */
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label input[type="text"] {
+    font-size: 1em;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose {
+    border-radius: 3px;
+    background: #f0f0f0;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-grid .rp-size {
+    border-radius: 3px;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-grid .rp-size:hover, #hlc-roll-label-step-form .step.printer .printer-setup .printer-step-grid .col.selected {
+    border-color: #29aae1;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-grid .rp-size:nth-child(even) {
+    background: #f0f0f0;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.shape button .shape-img {
+    border: 1px solid #6d6d6d;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-block .price {
+    border-top: 1px solid #6d6d6d;
+}
+
+#hlc-roll-label-step-form .step.quantity .totals .total-price {
+    font-size: 1.25em;
+}
+
+#hlc-roll-label-step-form .step.quantity .totals .total-price .total::before {
+    content: ":";
+    margin-right: 0.5em;
+}
+
+#hlc-roll-label-step-form .step.quantity .totals .total-price .total {
+    font-size: 1em;
+    margin-left: 0;
+}
+
+#hlc-roll-label-step-form .step.quantity .sub-step.quantity-information::after {
+    content: "IMPORTANT NOTICE: Blank label orders typically ship within 2-5 business days, and 5-9 business days for orders that require custom tooling.";
+    font-weight: 400;
+    font-size: 15px;
+    color: #EA088B;
+}
+
+#hlc-roll-label-step-form .sub-step {
+    padding: 0.5em 0;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-block {
+    border-radius: 3px;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.shape button:hover .shape-img {
+    border: 1px solid #29aae1;
+}
+
+#hlc-roll-label-step-form .step.material .sub-step.material .material-selector.selected button {
+    background: #29aae1;
+}
+
+#hlc-roll-label-step-form .step.material .sub-step.material .material-selector button {
+    border: 1px solid transparent;
+    background: #f0f0f0;
+}
+
+#hlc-roll-label-step-form .step.material .sub-step.material .material-selector button:hover {
+    border-color: #29aae1;
+}
+
+.step.material .sub-step.material .hlc-lm-overlay, .hlc-material-details, .hlc-material-image, .hlc-resistance-meter {
+    border-radius: 3px;
+}
+
+.hlc-material-image {
+    border: 1px solid #aaa;
+}
+
+.hlc-material-show-details {
+    text-transform: capitalize !important;
+    margin: 20px auto !important;
+}
+
+.hlc-material-show-details:hover {
+    color: #29aae1;
+}
+
+.hlc-material-show-details i {
+    font-size: 14px;
+}
+
+strong.hlc-material-name {
+    font-weight: 300 !important;
+    color: #333333 !important;
+}
+
+.step.material .sub-step.material .hlc-label-material {
+    margin-bottom: 20px;
+}
+
+.step.material .sub-step.material .hlc-label-material .hlc-labels-per-roll {
+    color: #6d6d6d;
+    text-transform: capitalize;
+}
+
+.hlc-material-text-content .hlc-labels-per-roll {
+    text-transform: capitalize;
+}
+
+.hlc-resistance-meter span {
+    border-radius: 3px;
+    background: #29aae1 !important;
+}
+
+.hlc-material-description p span {
+    font-family: inherit !important;
+    font-size: 1em !important;
+}
+
+.hlc-material-hide-details:hover {
+    color: #29aae1 !important;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-block.selected .price {
+    background: #29aae1;
+    color: #ffffff !important;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-block {
+    border: 1px solid #6d6d6d;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-blocks.colset-1 .price-block span.price {
+    border: none;
+    border-left: 1px solid #6d6d6d;
+}
+
+#hlc-roll-label-step-form .quantity-pricing .price-block .quantity {
+    background: #6d6d6d;
+    color: #ffffff;
+}
+
+#hlc-roll-label-step-form .step.quantity .sub-step.quantity-information {
+    border-radius: 3px;
+    background: #f0f0f0;
+}
+
+#hlc-roll-label-step-form.left-steps-wide .step.shape .sub-step.size .hover-info {
+    display: none;
+}
+
+/* WATCH THIS */
+#hlc-roll-label-step-form.left-steps-wide .step.shape .sub-step.size .size-grid {
+    margin-top: 1em;
+}
+
+/* Removes warning that no sizes are avabile -- this was done to prevent Hickman contact/phone number info from showing -- this was replaced by text using the selector folliwng this one */
+#hlc-roll-label-step-form p.no-sizes {
+    visibility: hidden;
+    position: relative;
+}
+
+#hlc-roll-label-step-form p.no-sizes::after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: italic;
+    content: "The printer that you selected will not support labels that size. Please contact us if you have any questions about what size labels your printer can support.";
+}
+
+#hlc-roll-label-step-form .steps .menu-window ol li, .label-stats {
+    color: #333333;
+}
+
+#hlc-roll-label-step-form .step.printer .printer-setup .printer-step-grid .col {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.roll-diagram .rd-container .captions div {
+    color: #29aae1;
+    border-color: #29aae1;
+}
+
+.roll-diagram .rd-container .captions div span, .roll-diagram .rd-container .captions div span label {
+    color: #29aae1;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+}
+
+.cart_item .product-name h4, .cart_item .product-name h5 {
+    font-size: 15px;
+    margin: 0;
+    color: #6d6d6d !important;
+}
+
+.woocommerce-table__line-item .woocommerce-table__product-name h4, .woocommerce-table__line-item .woocommerce-table__product-name h5, .woocommerce-table__line-item .woocommerce-table__product-name h5 strong, .woocommerce-table__line-item .woocommerce-table__product-name p {
+    font-size: 15px;
+    display: inline;
+    color: #6d6d6d !important;
+}
+
+.woocommerce-table__line-item .woocommerce-table__product-name strong, .woocommerce-table__line-item .woocommerce-table__product-name p em strong {
+    font-weight: 300 !important;
+}
+
+.woocommerce-table__line-item .woocommerce-table__product-name p::before, .cart_item .product-name p em::before {
+    content: " - ";
+}
+
+.woocommerce-table__line-item .woocommerce-table__product-name span::after {
+    content: " ";
+}
+
+.woocommerce-mini-cart-item h4, .woocommerce-mini-cart-item h5, .woocommerce-mini-cart-item h5 strong, .woocommerce-mini-cart-item p, .woocommerce-mini-cart-item p em strong {
+    font-size: 14px;
+    font-weight: 300 !important;
+    margin: 0;
+}
+
+.woocommerce-mini-cart-item h4, .woocommerce-mini-cart-item h5, .woocommerce-mini-cart-item p {
+    display: inline;
+}
+
+.woocommerce-mini-cart-item span.quantity {
+    display: block;
+}
+
+#hlc-roll-label-step-form .label.clearfix {
+    display: inline-block;
+}
+
+#hlc-roll-label-step-form .mb-form.clearfix:after {
+    margin-bottom: 0;
+}
+
+#hlc-roll-label-step-form .step.shape .sub-step.size .size-choose h4 {
+    display: none !important;
+}
+
+@media screen and (min-width: 1395px) {
+    #hlc-roll-label-step-form .step.shape .sub-step.size .size-choose .label .reset-input {
+        top: 6%;
+    }
+}
+
+/* END Hickman Plugin CSS */
+
+
+.status-bar {
+    font-weight: normal !important;
+}
